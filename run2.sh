@@ -53,7 +53,7 @@ LM_ARGS=(
 
 echo $PYTHONPATH
 
-python -m alphageometry \
+time python -m alphageometry \
 --alsologtostderr \
 --problems_file=$(pwd)/examples.txt \
 --problem_name=orthocenter \
