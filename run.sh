@@ -22,7 +22,7 @@ source ./bin/activate
 
 pip install --require-hashes -r requirements.txt
 
-gdown --folder https://bit.ly/alphageometry
+gdown --folder https://drive.google.com/drive/u/0/folders/1ZLaZ2ajtOcILDWa5ePPLX1bmaf_BNRZV
 DATA=ag_ckpt_vocab
 
 MELIAD_PATH=meliad_lib/meliad
